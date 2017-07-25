@@ -14,7 +14,7 @@ var cleanCSS    = require('gulp-clean-css');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
-var URL = '';
+var URL = 'http://www.fabric-king.com';
 
 // Check for --production flag
 var isProduction = !!(argv.production);
@@ -107,7 +107,7 @@ gulp.task('browser-sync', ['build'], function() {
 // Compile Sass into CSS
 // In production, the CSS is compressed
 gulp.task('sass', function() {
-  return gulp.src('assets/scss/foundation.scss')
+  return gulp.src('assets/scss/melement.scss')
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       includePaths: PATHS.sass
@@ -156,7 +156,7 @@ gulp.task('javascript', function() {
   return gulp.src(PATHS.javascript)
     .pipe($.sourcemaps.init())
     .pipe($.babel())
-    .pipe($.concat('foundation.js', {
+    .pipe($.concat('melement.js', {
       newLine:'\n;'
     }))
     .pipe($.if(isProduction, uglify))
@@ -226,15 +226,15 @@ gulp.task('clean', function(done) {
 // Clean JS
 gulp.task('clean:javascript', function() {
   return del([
-      'assets/javascript/foundation.js'
+      'assets/javascript/melement.js'
     ]);
 });
 
 // Clean CSS
 gulp.task('clean:css', function() {
   return del([
-      'assets/stylesheets/foundation.css',
-      'assets/stylesheets/foundation.css.map'
+      'assets/stylesheets/melement.css',
+      'assets/stylesheets/melement.css.map'
     ]);
 });
 
