@@ -21,7 +21,7 @@ var isProduction = !!(argv.production);
 
 // Browsers to target when prefixing CSS.
 var COMPATIBILITY = [
-  'last 2 versions',
+  'last 100 versions',
   'ie >= 9',
   'Android >= 2.3'
 ];

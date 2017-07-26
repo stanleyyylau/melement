@@ -12,7 +12,8 @@
 
 		</section>
 		<div class="footer-container" data-sticky-footer>
-			<footer class="footer">
+			<footer class="footer row">
+				<div class="columns small-12 text-center">Copyright 2016 Volumeless All Rights Reserved</div>
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
