@@ -56,6 +56,11 @@ section {
 // home slider section
 .slider-section {
   background-color: #3c3a3a;
+  .controls-wrap {
+      width: 100%;
+      display: flex;
+      margin-left: 0;
+  }
 }
 
 .slider-content-title {

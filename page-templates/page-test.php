@@ -10,43 +10,48 @@ $imgUrl = get_stylesheet_directory_uri() . '/assets/images';
 <div class="row">navigation here</div>
 
 <section class="slider-section">
-<ul class="row align-middle align-center">
-    <li class="columns small-3"><a href="#" data-index="0" class="slider-control is-active"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-1.png"></div></a></li>
-    <li class="columns small-3"><a href="#" data-index="1" class="slider-control"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-2.png"></div></a></li>
-    <li class="columns small-3"><a href="#" data-index="2" class="slider-control"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-3.png"></div></a></li>
-    <li class="columns small-3"><a href="#" data-index="3" class="slider-control"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-4.png"></div></a></li>
-</ul>
-
-<div class="row">
-    <div class="slider-content slider-viewport">
-        <ul class="slides-container">
-            <li class="slides">
-                <h2 class="slider-content-title">Engineering #1</h2>
-                <div class="image-wrap">
-                    <img src="<?php echo $imgUrl;?>/slider1-image.png">    
-                <div>
-            </li>
-            <li class="slides">
-                <h2 class="slider-content-title">Engineering #2</h2>
-                <div class="image-wrap">
-                    <img src="<?php echo $imgUrl;?>/slider1-image.png">    
-                <div>
-            </li>
-            <li class="slides">
-                <h2 class="slider-content-title">Engineering #3</h2>
-                <div class="image-wrap">
-                    <img src="<?php echo $imgUrl;?>/slider1-image.png">    
-                <div>
-            </li>
-            <li class="slides">
-                <h2 class="slider-content-title">Engineering #4</h2>
-                <div class="image-wrap">
-                    <img src="<?php echo $imgUrl;?>/slider1-image.png">    
-                <div>
-            </li>
+    <div class="row">
+        <ul class="controls-wrap align-middle align-center">
+            <li class="columns small-3"><a href="#" data-index="0" class="slider-control is-active"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-1.png"></div></a></li>
+            <li class="columns small-3"><a href="#" data-index="1" class="slider-control"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-2.png"></div></a></li>
+            <li class="columns small-3"><a href="#" data-index="2" class="slider-control"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-3.png"></div></a></li>
+            <li class="columns small-3"><a href="#" data-index="3" class="slider-control"><div class="control-inner"><img class="slider-control-img" src="<?php echo $imgUrl;?>/slider-icon-4.png"></div></a></li>
         </ul>
+
+         <div class="slider-content slider-viewport">
+            <ul class="slides-container">
+                <li class="slides">
+                    <h2 class="slider-content-title">Engineering #1</h2>
+                    <div class="image-wrap">
+                        <img src="<?php echo $imgUrl;?>/slider1-image.png">    
+                    <div>
+                </li>
+                <li class="slides">
+                    <h2 class="slider-content-title">Engineering #2</h2>
+                    <div class="image-wrap">
+                        <img src="<?php echo $imgUrl;?>/slider1-image.png">    
+                    <div>
+                </li>
+                <li class="slides">
+                    <h2 class="slider-content-title">Engineering #3</h2>
+                    <div class="image-wrap">
+                        <img src="<?php echo $imgUrl;?>/slider1-image.png">    
+                    <div>
+                </li>
+                <li class="slides">
+                    <h2 class="slider-content-title">Engineering #4</h2>
+                    <div class="image-wrap">
+                        <img src="<?php echo $imgUrl;?>/slider1-image.png">    
+                    <div>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
+
+
+<!-- <div class="row">
+   
+</div> -->
 </section>
 
 <!-- Our products -->
