@@ -82,6 +82,13 @@
 @import "templates/front";
 @import "templates/kitchen-sink";
 
+
+// Import style for simple slider
+@import "../components/simple_slider/simple_slider_min.scss";
+
+
+
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If

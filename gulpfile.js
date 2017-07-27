@@ -63,6 +63,9 @@ var PATHS = {
 
     // Motion UI
     'assets/components/motion-ui/motion-ui.js',
+    
+    // Slider plguin here
+    'assets/components/simple_slider/jquery_slider.js',
 
     // Include your own custom scripts (located in the custom folder)
     'assets/javascript/custom/*.js',

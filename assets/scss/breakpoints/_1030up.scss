@@ -8,4 +8,288 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+.section-title {
+    font-size: 68px;
+    font-weight: bolder;
+    border-bottom: 1px solid #ffae00;
+    margin-bottom: 80px;
+    line-height: 1;
+    padding-bottom: 15px;
+}
 
+.large-12 {
+    padding: 0;
+}
+
+section > .row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+// Our product
+.product-section {
+    .large-2 {
+        padding: 0!important;        
+    }
+    .section-title.product {
+        text-align: left;
+        border: 0;
+        position: relative;
+        &:before{
+            content: " ";
+            display: block;
+            height: 1px;
+            width: 80px;
+            background-color: #ffae00;
+            bottom: -15px;
+            position: absolute;
+            z-index: 2;
+        }
+        &:after{
+            content: " ";
+            display: block;
+            height: 1px;
+            width: 350px;
+            background-color: white;
+            position: absolute;
+            bottom: -15px;
+            z-index: 1;
+        }
+    }
+}
+
+.product-item-wrap {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .product-title {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.76);
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-size: 20px;
+        transform: scale(0);
+        transition: all .5s ease;
+    }
+    &:hover {
+        .product-title {
+            transform: scale(1);
+        }
+    }
+}
+
+// Our works
+.our-works {
+    padding-bottom: 100px;
+    padding-top: 90px;
+
+    .works-main {
+        padding-top: 55px!important;
+    }
+
+    .our-works-title {
+        margin-bottom: 10px;
+    }
+
+    .our-works-des {
+        padding: 0 30px;
+    }
+
+    .large-4 {
+        padding: 0;
+    }
+    .galary-item {
+        margin-bottom: 0;
+    }
+    .row {
+        & .columns:nth-child(1){
+            order: 1;
+            margin: 0!important;
+        }
+        & .columns:nth-child(2){
+            order: 0;
+        }
+        & .columns:nth-child(3){
+            order: 3;
+        }
+        & .columns:nth-child(4){
+            order: 4;
+        }
+        & .columns:nth-child(5){
+            order: 5;
+        }
+        & .columns:nth-child(6){
+            order: 6;
+        }
+    }
+}
+
+// About
+.about {
+    padding-top: 80px;
+    background-image: url("../images/about-bg.jpg");
+    padding-bottom: 110px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-us-wrap {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 80px;
+    padding-left: 20px;
+    .button.contact-us {
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+}
+
+.about-des {
+    padding: 0 10px!important;
+}
+
+.about-des-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.about {
+    ul {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 25px;
+            line-height: 1.5;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .medium-6, .large-12 {
+        padding: 0;
+    }
+}
+
+.our-team {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+// Team section
+ .row.team-row {
+    max-width: 1080px;
+}
+
+.team-item {
+    padding-bottom: 40px;
+}
+
+.our-team {
+    .small-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+// FAQ
+.faq-section {
+    padding-bottom: 80px;
+    .large-6, .small-12 {
+        padding: 0;
+    }
+    .section-title {
+        position: relative;
+        text-align: left;
+        margin-bottom: 40px;
+        border: 0;
+        &:before{
+            content: " ";
+            display: block;
+            height: 1px;
+            width: 80px;
+            background-color: #ffae00;
+            bottom: -15px;
+            position: absolute;
+            z-index: 2;
+        }
+        &:after{
+            content: " ";
+            display: block;
+            height: 1px;
+            width: 350px;
+            background-color: white;
+            position: absolute;
+            bottom: -15px;
+            z-index: 1;
+        }
+    }
+    .question-mark {
+        text-align: right;
+        i {
+            font-size: 170px;
+        }
+    }
+    .faq-des {
+        margin-bottom: 50px;
+    }
+}
+
+// Contact
+.contact {
+    padding-top: 0;
+    background: url("../images/contact-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+    .contact-wrap {
+        text-align: left;
+    }
+    .slider-content-title {
+        text-align: left;
+        padding-top: 60px;
+        font-weight: bolder;
+        position: relative;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        &:before{
+            content: " ";
+            display: block;
+            height: 1px;
+            width: 80px;
+            background-color: #ffae00;
+            bottom: -10px;
+            position: absolute;
+            z-index: 2;
+        }
+        &:after{
+            content: " ";
+            display: block;
+            height: 1px;
+            width: 350px;
+            background-color: white;
+            position: absolute;
+            bottom: -10px;
+            z-index: 1;
+        }
+    }
+    .contact-address {
+        max-width: 370px;
+        font-size: 16px;
+    }
+    .contact7-wrap {
+        padding-top: 0;
+    }
+}

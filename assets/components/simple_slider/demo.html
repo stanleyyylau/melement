@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="simple_slider_min.css">
+    <style>
+      .slider-viewport{
+        height: 250px;
+      }
+    </style>
+</head>
+<body>
+
+    <div class="slider-viewport">
+        <div class="slides-container">
+            <div class="slides">
+                <a href="#"><h2 class="au-immigrate">关于澳洲就业移民</h2></a>
+                <p>
+                    11这个时代已经不止是“放眼全球”的年代了，我们的生活圈子在走
+                    <br /> 向全球化，海外工作、生活已不再稀奇。看见不一样的风景，体验不一样的生活，追求不一
+                    <br /> 样的人生，已经成为很多人实实在在的生命体验。对于想海外淘金或者移民海外的您，
+                    <br /> 现在有机会等着您去实现理想！淘力与澳洲当地招聘培训机构以及人才
+                    <br /> 解决方案公司等机构携手，在众多不同的职业组别
+                    <br /> 里寻找和招聘200名海外员工，这200名员
+                    <br /> 工将有机会获得技术移民签证。
+                </p>
+            </div>
+
+            <div class="slides">
+                <a href="#"><h2 class="au-immigrate">关于澳洲就业移民</h2></a>
+                <p>
+                    22这个时代已经不止是“放眼全球”的年代了，我们的生活圈子在走
+                    <br /> 向全球化，海外工作、生活已不再稀奇。看见不一样的风景，体验不一样的生活，追求不一
+                    <br /> 样的人生，已经成为很多人实实在在的生命体验。对于想海外淘金或者移民海外的您，
+                    <br /> 现在有机会等着您去实现理想！淘力与澳洲当地招聘培训机构以及人才
+                    <br /> 解决方案公司等机构携手，在众多不同的职业组别
+                    <br /> 里寻找和招聘200名海外员工，这200名员
+                    <br /> 工将有机会获得技术移民签证。
+                </p>
+            </div>
+
+            <div class="slides">
+                <a href="#"><h2 class="au-immigrate">关于澳洲就业移民</h2></a>
+                <p>
+                    33这个时代已经不止是“放眼全球”的年代了，我们的生活圈子在走
+                    <br /> 向全球化，海外工作、生活已不再稀奇。看见不一样的风景，体验不一样的生活，追求不一
+                    <br /> 样的人生，已经成为很多人实实在在的生命体验。对于想海外淘金或者移民海外的您，
+                    <br /> 现在有机会等着您去实现理想！淘力与澳洲当地招聘培训机构以及人才
+                    <br /> 解决方案公司等机构携手，在众多不同的职业组别
+                    <br /> 里寻找和招聘200名海外员工，这200名员
+                    <br /> 工将有机会获得技术移民签证。
+                </p>
+            </div>
+
+            <div class="slides">
+                <a href="#"><h2 class="au-immigrate">关于澳洲就业移民</h2></a>
+                <p>
+                    44这个时代已经不止是“放眼全球”的年代了，我们的生活圈子在走
+                    <br /> 向全球化，海外工作、生活已不再稀奇。看见不一样的风景，体验不一样的生活，追求不一
+                    <br /> 样的人生，已经成为很多人实实在在的生命体验。对于想海外淘金或者移民海外的您，
+                    <br /> 现在有机会等着您去实现理想！淘力与澳洲当地招聘培训机构以及人才
+                    <br /> 解决方案公司等机构携手，在众多不同的职业组别
+                    <br /> 里寻找和招聘200名海外员工，这200名员
+                    <br /> 工将有机会获得技术移民签证。
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="control-btns">
+        <a class="slider-back">上一页</a>
+        <a class="slider-forward">下一页</a>
+    </div>
+
+    <script src="jquery-1.10.1.min.js"></script>
+    <script src="http://www.tounick.com/js/jquery_slider.js"></script>
+    <script type="text/javascript">
+    var test = $('.slider-viewport').slider({
+      isResponsive: true,
+      doItAfterEachSlide: function(index){
+        var currentSlide = Number(index+1);
+        console.log('刚刚播放的轮播是第 ' + currentSlide +' 张');
+      }
+      })
+    </script>
+</body>
+
+</html>
